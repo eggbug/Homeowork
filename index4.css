@@ -1,0 +1,46 @@
+/* IMG 4 */
+
+.container4 {
+  display: block;
+  padding: 20px 20px;
+  height: 408px;
+  width: 500px;
+}
+
+.h1-h2 {
+  margin-top: 300px;
+}
+
+.h1-h2 h2 {
+  color: #42ba96;
+}
+
+.h1-h2 span {
+  animation: type 3s steps(11);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #42ba96;
+  width: 22ch;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 22ch;
+  }
+}
+
+.checks {
+  width: 500px;
+}
+
+.checks svg {
+  color: #42ba96;
+  display: flex;
+}
+
+.checks h4 {
+  color: #42ba96;
+}

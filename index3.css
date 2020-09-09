@@ -1,0 +1,65 @@
+/* IMG 3 */
+.container3 {
+  display: block;
+  height: 610px;
+  width: 393px;
+  padding-top: 300px;
+  background: transparent;
+}
+
+.card-img-top {
+  height: 262px;
+  width: 393px;
+}
+
+.form-ctrl {
+  width: 350px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  height: 45px;
+  width: 59;
+}
+
+.form button {
+  padding: 13px 20px;
+  border: 1px solid transparent;
+  background-color: #42ba96;
+  color: white;
+  width: 350px;
+  font-size: 20px;
+  font-weight: 300px;
+  line-height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.form button:hover {
+  box-shadow: 0 1rem 2.5rem rgba(22, 28, 45, 0.1),
+    0 0.5rem 1rem -0.75rem rgba(22, 28, 45, 0.1);
+  transform: translate3d(0, -3px, 0);
+}
+
+.form button:last-of-type {
+  color: white;
+  background-color: #42ba96;
+}
